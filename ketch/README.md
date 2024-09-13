@@ -28,4 +28,10 @@ To setup the Ketch Permit Vault on your own, follow the steps below:
 Now that we have user consent data loaded in the permit vault for Moonraker and Skyfall, we will now describe how to secure share Moonraker's user consent data with the Moonraker Snowflake account.
 
 # Permit Vault Data Sharing using Snowflake Secure Share
+Follow the steps below to share Moonraker's user consent permit vault with the Moonraker Snowflake account (these steps are based on standard Snowflake documentation to create and share a view securely via Snowflake Secure Share):
 
+* Define the view for Moonraker's user consent
+* Grant the necessary privileges
+* Share the view with Moonraker's Snowflake account
+
+Refer to the sharing.sql script for the exact SQL statements to execute the steps above.

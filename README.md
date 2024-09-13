@@ -1,6 +1,8 @@
 # Introduction
 
-Ketch blah blah blah
+Privacy compliance, particularly consent-based data processing, is becoming a critical requirement for companies due to the increasing focus on user data protection and the regulatory landscape. GDPR, CCPA. and other regional privacy regulations now require that store user data is collected, stored, and processed in a manner that respects consumer choice. Consent-based data processing empowers individuals to control how their data is used, providing clarity on its purposes and offering the ability to withdraw consent at any time. Failure to comply not only risks hefty fines but also damages consumer trust, leading to long-term reputational harm. As users become more conscious of their digital privacy rights, organizations that prioritize privacy compliance gain a competitive advantage, fostering trust and safeguarding their operations in an evolving regulatory environment.
+
+Many organizations have adopted Snowflake as their CDP (Customer Data Platform) for managing user and customer data. While these organizations have implemented various use cases to use, process, and activate customer data, often times those implementations do not integrate user consent data into those 
 
 # Setup
 
@@ -11,7 +13,7 @@ Moonraker is a Ketch customer that collects and processes user data. Moonraker s
 ```sql
 Table: MOONRAKER.CDP.USER_DATA
 Columns:
-	  user_hashed_email varchar(100) not null,
+	user_hashed_email varchar(100) not null,
     gender varchar(20) not null,
     age_range varchar(20) not null,
     household_income varchar(50) not null,
