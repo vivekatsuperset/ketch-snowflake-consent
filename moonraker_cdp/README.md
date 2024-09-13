@@ -15,6 +15,7 @@ Columns:
     user_hashed_email varchar(100) not null,
     site varchar(100) not null,
     event_timestamp timestamp not null
+```
 
 To setup the Moonraker CDP on your own, follow the steps below:
 * Sign up for a new Snowflake Account. 
